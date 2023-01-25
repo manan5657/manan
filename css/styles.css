@@ -1,0 +1,251 @@
+.top-container
+{
+   background-color: #EAF6F6;
+   padding-top: 100px;
+   position: relative;
+}
+body
+{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+h1
+{
+    margin: 100px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.65rem;
+    color: #66bfbf;
+}
+h2
+{   
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66bfbf;
+}
+h3
+{
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a
+{
+    color: #1a7c80;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #EAF6F6;
+}
+.middle-container
+{
+    margin: 50px 0;
+}
+.bottom-container
+{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.subhead
+{
+    
+    text-decoration: underline;
+    text-decoration-thickness: 0.16rem;
+}
+.top-cloud
+{
+    display: inline-block;
+    position: absolute;
+    right: 320px;
+    height: 70px;
+    top: 134px;
+}
+.bottom-cloud
+{
+    display: inline-block;
+    position: absolute;
+    left: 310px;
+    height: 70px;
+    bottom: 270px;
+}
+.skill-row
+{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    padding-bottom: 50px;
+}
+.table
+{
+    width: 40%;
+    margin: 80px auto 100px auto;
+}
+.certificate
+{
+    margin-top: 25px;
+    display: inline-block;
+    height: 350px;
+    width: 350px ;
+
+}
+.gallery
+{
+    display: inline-block;
+    height: 250px;
+    width: 250px ;
+}
+hr 
+{
+    border-style: dotted none none;
+    border-width: 6px;
+    width: 4%;
+    border-color: #cdd3d3;
+    margin: 100px auto;
+}
+.message
+{
+    width: 35%;
+    margin: 40px auto 60px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 15px;
+    text-shadow: 0px 2px 6px #1a181a;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    box-shadow: 1px 1px 15px #c6c1c1,-1px -1px 15px #c6c1c1;
+}
+  
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+.footer
+{
+    font-size: 0.65rem;
+    color: #EAF6F6;
+}
+.links
+{
+    margin: 0 auto 35px auto;
+}
+.profile-photo
+{
+    box-shadow: 2px 2px 20px #f2eded,-2px -2px 20px #f2eded;
+    box-sizing: border-box;
+    border-radius: 150px;
+}
+ul
+{
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    bottom: 40px;
+    width: 100%;    
+}
+li
+{
+    display: inline-block;
+
+}
+.nav
+{
+    padding: 0 0px 10px 90px;
+    font-size: 22px;
+    text-align: center;
+    color: #66bfbf;
+    text-shadow: 2px 2px 4px #cbd6d6;
+}
+.nav:hover
+{
+    color: #1a181a;
+}
+.leftpp
+{
+    float: left;
+    position: relative;
+    left: 80px;
+    bottom: 40px;
+    box-shadow: 4px 4px 5px #e4eeee,-4px -4px 5px #e4eeee;
+    border-radius: 60px;
+}
+.searchli
+{
+    float:right;
+    position: relative;
+    right: 20px;
+    top: 2.5px;
+}
+.search
+{
+    border: 1px solid rgba(173, 162, 162, 0.89);
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.74);
+    width: 100%;
+    height: 20px;
+    box-shadow: 2px 2px 5px #e2ebeb,-2px -2px 5px #e2ebeb;
+
+}
+.certbtn
+{
+    margin-top: 35px;
+    padding: 6px;
+    width: 8.5rem;
+    height: 40px;
+    border: 1px solid #03282942;
+    border-radius: 11px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    transition-duration: 0.4s;
+    background-color: #11cdd4;
+    font-weight:bold;
+    color: #ffffff;
+    text-shadow: 4px 4px 8px #1312124d ;
+}
+.gallerybtn
+{
+    margin-top: 35px;
+    padding: 6px;
+    width: 7rem;
+    height: 40px;
+    border: 1px solid #03282942;
+    border-radius: 11px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    transition-duration: 0.4s;
+    background-color: #11cdd4;
+    font-weight:bold;
+    color: #ffffff;
+    text-shadow: 4px 4px 8px #1312124d ;
+}
+.certbtn:hover
+{
+    box-shadow: 0 6.5px 14px 1px #13121235,0 -6px 14px 1px #2422222e;
+}
+.gallerybtn:hover
+{
+    box-shadow: 0 6.5px 14px 1px #13121235,0 -6px 14px 1px #2422222e;    
+}
